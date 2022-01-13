@@ -7,5 +7,5 @@
 -- | 1873 | Baltimore Marylands  | 0    | 6      |
 -- | 1875 | Keokuk Westerns      | 1    | 12     |
 -- +------+----------------------+------+--------+
-
+SELECT year, name, wins, losses FROM teams ORDER BY wins limit 3;
 
